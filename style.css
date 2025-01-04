@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: black;
+ width: 100%;
+ height: 100%;
+ color:aliceblue ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10vh;
+}
+#logo{
+    width: 20vw;
+    border-radius: 20px;
+}
+h1{   
+  font-family: "Libre Baskerville", serif;
+}
+#name{
+    color: rgb(226, 62, 7);
+    font-size: 40px;
+
+}
+#va{
+    color: aqua;
+    font-size: 40px;
+}
+#voice{
+    width: 150px;
+    display: none;
+}
+#btn{
+    width: 30%;
+    background: linear-gradient(to right, rgb(26, 65, 156) , rgb(190, 26, 26));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    border: none;
+    box-shadow: 2px 2px 10px rgb(26, 65, 156) ,2px 2px 10px  rgb(190, 26, 26) ;
+    transition: all 2s;
+    cursor:pointer;
+}
+
+#btn:hover{
+    box-shadow: 2px 2px 20px rgb(190, 26, 26) ,2px 2px 20px  rgb(26, 65, 156) ;
+    letter-spacing: 2px;
+
+}
